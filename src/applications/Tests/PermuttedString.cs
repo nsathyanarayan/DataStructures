@@ -12,9 +12,9 @@ namespace application
         {
             List<string> data = new List<string>();
             Assert.IsTrue(Permutation.IsPermutedString("abc", "cab"));
-            //Assert.IsTrue(Permutation.IsPermutedString("abc", "bca"));
-           // Assert.IsTrue(Permutation.IsPermutedString("abc", "acb"));
-           // Assert.IsTrue(Permutation.IsPermutedString("abc", "cba"));
+            Assert.IsTrue(Permutation.IsPermutedString("abc", "bca"));
+            Assert.IsTrue(Permutation.IsPermutedString("abc", "acb"));
+            Assert.IsTrue(Permutation.IsPermutedString("abc", "cba"));
         }
     }
 }
