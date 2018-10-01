@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace application
 {
@@ -24,7 +21,7 @@ namespace application
                 return String.Empty;
             }
 
-            List<char> data = new List<char>();
+            var data = new List<char>();
             foreach( var c in testData)
             {
                 if (!data.Contains(c))
@@ -33,7 +30,7 @@ namespace application
                 }
             }
 
-            return new String(data.ToArray());
+            return new string(data.ToArray());
         }
     }
 }

@@ -13,3 +13,13 @@ the data.
 
 * [Linked List](data-structures/LinkedList)
 * [Trie](data-structures/AutoComplete)
+
+## Applications
+
+Application project consists of example questions that you frequently encounter in major interviews.
+This project consists of solution to following problems and unit tests to test the algorithms.
+
+- [x] Implement an algorithm to determine if a string has all unique characters.
+- [x] Given two strings, write a method to decide if one is a permutation of the other.
+- [x] Implement a method to perform basic string compresssion using hte counts of repeated characters.
+- [ ] Given an image represented by an NXN matrx, where each pixel in the image is 4 bytes, rotate the image by 90 degrees.

@@ -16,5 +16,23 @@ namespace application
             Assert.IsTrue(Permutation.IsPermutedString("abc", "acb"));
             Assert.IsTrue(Permutation.IsPermutedString("abc", "cba"));
         }
+
+        [Test]
+        public void PermuttedString_NullString()
+        {
+            Assert.IsFalse(Permutation.IsPermutedString(null, "abc"));
+        }
+
+        [Test]
+        public void PermuttedString_EmptyString()
+        {
+            Assert.IsFalse(Permutation.IsPermutedString(String.Empty, "abc"));
+        }
+
+        [Test]
+        public void PermuttedString_UnequalStringLengths()
+        {
+            Assert.IsFalse(Permutation.IsPermutedString("abcd", "abc"));
+        }
     }
 }

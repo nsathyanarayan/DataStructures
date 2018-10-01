@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace application
 {
@@ -13,7 +10,7 @@ namespace application
     {
         public static bool IsPermutedString( string source, string target)
         {
-            if( source == null || source.Length == 0)
+            if( string.IsNullOrEmpty(source))
             {
                 return false;
             }
@@ -23,8 +20,8 @@ namespace application
                 return false;
             }
 
-            char[] items = source.ToCharArray();
-            List<String> permutedStrings = new List<string>();
+            var items = source.ToCharArray();
+            var permutedStrings = new List<string>();
             GetPermutations(items, 0, items.Length - 1, permutedStrings);
             return permutedStrings.Contains(target);
         }

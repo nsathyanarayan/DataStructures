@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Permutation.cs" />
+    <Compile Include="RotateMatrix.cs" />
+    <Compile Include="StringCompression.cs" />
     <Compile Include="UniqueCharacter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

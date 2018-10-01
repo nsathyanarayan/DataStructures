@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PermuttedString.cs" />
+    <Compile Include="RotateMatrixTest.cs" />
+    <Compile Include="StringCompressionTest.cs" />
     <Compile Include="UniqueCharacterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
